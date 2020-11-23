@@ -12,7 +12,7 @@ def find_min_in_nested_arrays(src)
       end
     element_index += 1 
     end
-    outer_results << longest_string_element
+    outer_results << largest_number_element
     row_index += 1
   end
   print outer_results
