@@ -10,6 +10,7 @@ def find_min_in_nested_arrays(src)
         longest_string_element = src[row_index][element_index]
       end
     element_index += 1 
+    end
   end
   print outer_results
 end
